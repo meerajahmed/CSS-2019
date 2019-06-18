@@ -1,0 +1,32 @@
+{
+  "name": "css-2019",
+  "version": "1.0.0",
+  "description": "CSS Techniques 2019",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "webpack-dev-server --open",
+    "build-dev": "webpack -d --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meerajahmed/CSS-2019.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Meeraj Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meerajahmed/CSS-2019/issues"
+  },
+  "homepage": "https://github.com/meerajahmed/CSS-2019#readme",
+  "dependencies": {
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
