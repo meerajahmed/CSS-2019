@@ -1,0 +1,11 @@
+#flexbox {
+    display: flex;
+    height: 100px;
+    column-gap: 20px;
+}
+
+#flexbox > div {
+    border: 4px solid #00BCD4;
+    background-color: #B2EBF2;
+    flex: auto;
+}

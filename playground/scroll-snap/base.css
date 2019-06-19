@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}
+section {
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    height: 100vh;
+    scroll-snap-align: start;
+    text-align: center;
+    position: relative;
+}
+
+section:nth-child(1) {
+    background: rgb(164, 249, 181);
+}
+section:nth-child(2) {
+    background: rgb(247, 243, 143);
+}
+section:nth-child(3) {
+    background: rgb(186, 226, 252);
+}
+section:nth-child(4) {
+    background: rgb(192, 199, 249);
+}
+section:nth-child(5) {
+    background: rgb(125, 112, 244);
+}
+
+
+h1  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+    left: 0;
+    font-size: calc(1rem + 3vw);
+}
